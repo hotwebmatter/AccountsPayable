@@ -13,7 +13,7 @@ namespace AccountsPayable
         {
             set { namesArray = value; }
         }
-        public string[] PayableArray
+        public double[] PayableArray
         {
             set { payableArray = value; }
         }
