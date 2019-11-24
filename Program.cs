@@ -16,7 +16,19 @@ namespace AccountsPayable
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello World!");
+            Write(GenerateHeader());
+        }
+
+        public static string GenerateHeader()
+        {
+            string result;
+            result = String.Format("*********************************************");
+            result += String.Format("\tAccounts Payable");
+            result += String.Format("\tSearch Array and Display Money Owed");
+            result += String.Format("\tMatthew Obert");
+            result += String.Format("\tNovember 24 2019");
+            result += String.Format("*********************************************");
+            return result;
         }
     }
 }
