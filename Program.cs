@@ -28,8 +28,10 @@ namespace AccountsPayable
             result += String.Format("\tMatthew Obert\n");
             result += String.Format("\tNovember 24 2019\n");
             result += String.Format("*********************************************\n");
-            result += String.Format("\n");
-            result += String.Format("\n");
+            result += String.Format("This program will display money owed\n\n");
+            result += String.Format("Enter the company's name to determine\n");
+            result += String.Format("  money owed by that company\n");
+            result += String.Format("*********************************************\n");
             return result;
         }
     }
