@@ -1,6 +1,6 @@
 ﻿/**
  * ######################################################
- * ##    Programming Assignment #13                    ##
+ * ##    Programming Assignment #12                    ##
  * ##    Developer: Matthew Obert                      ##
  * ##    Date Submitted: November 17 2019              ##
  * ##    Purpose: Demonstrate parallel arrays          ##
