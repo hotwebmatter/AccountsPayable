@@ -22,12 +22,14 @@ namespace AccountsPayable
         public static string GenerateHeader()
         {
             string result;
-            result = String.Format("*********************************************");
-            result += String.Format("\tAccounts Payable");
-            result += String.Format("\tSearch Array and Display Money Owed");
-            result += String.Format("\tMatthew Obert");
-            result += String.Format("\tNovember 24 2019");
-            result += String.Format("*********************************************");
+            result = String.Format("*********************************************\n");
+            result += String.Format("\tAccounts Payable\n");
+            result += String.Format("\tSearch Array and Display Money Owed\n");
+            result += String.Format("\tMatthew Obert\n");
+            result += String.Format("\tNovember 24 2019\n");
+            result += String.Format("*********************************************\n");
+            result += String.Format("\n");
+            result += String.Format("\n");
             return result;
         }
     }
