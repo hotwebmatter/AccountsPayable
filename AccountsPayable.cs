@@ -41,5 +41,18 @@ namespace AccountsPayable
             result += String.Format("Highest payable: {0:c}\n", highestPayable);
             return result;
         }
+
+        public string GetPayable(string company)
+        {
+            string result = String.Format("Company not found\n");
+            for (int i = 0; i < namesArray.Length; i++)
+            {
+                if (namesArray[i] == company.ToUpper)
+                {
+                    result = String.Format("{0} Payable is {1:c}\n", namesArray[i], payableArray[i]);
+                }
+            }
+            return result;
+        }
     }
 }
