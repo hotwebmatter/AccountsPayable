@@ -16,7 +16,13 @@ namespace AccountsPayable
     {
         static void Main(string[] args)
         {
+            string[] namesArray = { "PEARSON", "CENGAGE", "WILEY", "MURARCH" };
+            double[] payableArray = { 25000, 37000, 10000, -500 };
             Write(GenerateHeader());
+            AccountsPayable myAccountsPayable = new AccountsPayable();
+            myAccountsPayable.NamesArray = namesArray;
+            myAccountsPayable.PayableArray = payableArray;
+            Write(myAccountsPayable.ToString());
         }
 
         public static string GenerateHeader()
