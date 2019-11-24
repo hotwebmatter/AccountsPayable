@@ -20,7 +20,7 @@ namespace AccountsPayable
         }
         public string CompanyName
         {
-            set { namesArray = value; }
+            set { companyName = value; }
         }
 
         public override string ToString()
@@ -47,7 +47,7 @@ namespace AccountsPayable
             string result = String.Format("Company not found\n");
             for (int i = 0; i < namesArray.Length; i++)
             {
-                if (namesArray[i] == company.ToUpper)
+                if (namesArray[i] == companyName)
                 {
                     result = String.Format("{0} Payable is {1:c}\n", namesArray[i], payableArray[i]);
                 }
