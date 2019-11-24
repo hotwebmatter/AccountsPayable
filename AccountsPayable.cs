@@ -8,6 +8,7 @@ namespace AccountsPayable
     {
         private string[] namesArray;
         private double[] payableArray;
+        private string companyName;
 
         public string[] NamesArray
         {
@@ -17,5 +18,10 @@ namespace AccountsPayable
         {
             set { payableArray = value; }
         }
+        public string CompanyName
+        {
+            set { namesArray = value; }
+        }
+
     }
 }
