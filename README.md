@@ -7,6 +7,7 @@ Demonstrates working with parallel arrays.
 ## Example output
 
 ```
+$ dotnet.exe bin/Debug/netcoreapp2.1/AccountsPayable.dll
 *********************************************
         Accounts Payable
         Search Array and Display Money Owed
@@ -32,7 +33,4 @@ WILEY Payable is $10,000.00
 
 *********************************************
 
-C:\Program Files\dotnet\dotnet.exe (process 25008) exited with code 0.
-To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
-Press any key to close this window . . .
 ```
