@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**
+ * ######################################################
+ * ##    Programming Assignment #13                    ##
+ * ##    Developer: Matthew Obert                      ##
+ * ##    Date Submitted: November 17 2019              ##
+ * ##    Purpose: Demonstrate parallel arrays          ##
+ * ######################################################
+ */
+using System;
+using static System.Console;
+
 
 namespace AccountsPayable
 {
@@ -6,7 +16,7 @@ namespace AccountsPayable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
         }
     }
 }
