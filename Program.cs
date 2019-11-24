@@ -22,7 +22,12 @@ namespace AccountsPayable
             AccountsPayable myAccountsPayable = new AccountsPayable();
             myAccountsPayable.NamesArray = namesArray;
             myAccountsPayable.PayableArray = payableArray;
-            Write(myAccountsPayable.ToString());
+            WriteLine(myAccountsPayable.ToString());
+            Write("Enter name of company: ");
+            myAccountsPayable.CompanyName = ReadLine();
+            WriteLine();
+            WriteLine(myAccountsPayable.GetPayable());
+            WriteLine("*********************************************");
         }
 
         public static string GenerateHeader()
