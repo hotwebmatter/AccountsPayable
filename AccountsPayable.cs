@@ -42,12 +42,12 @@ namespace AccountsPayable
             return result;
         }
 
-        public string GetPayable(string company)
+        public string GetPayable()
         {
             string result = String.Format("Company not found\n");
             for (int i = 0; i < namesArray.Length; i++)
             {
-                if (namesArray[i] == companyName)
+                if (namesArray[i] == companyName.ToUpper())
                 {
                     result = String.Format("{0} Payable is {1:c}\n", namesArray[i], payableArray[i]);
                 }
